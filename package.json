@@ -1,7 +1,7 @@
 {
-  "name": "landing-page-template",
+  "name": "bellbot",
   "version": "0.0.2",
-  "description": "A simple React app built with Vite and React.",
+  "description": "Simple robot game",
   "main": "server.js",
   "scripts": {
     "start": "vite",
@@ -11,7 +11,8 @@
   "dependencies": {
     "@vitejs/plugin-react": "^4.0.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "three": "^0.168.0"
   },
   "devDependencies": {
     "vite": "^4.0.0"

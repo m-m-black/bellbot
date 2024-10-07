@@ -1,6 +1,81 @@
 .container {
   width: 100%;
   height: 100%;
-  background-color: black;
+  background-color: #f7f7f7;
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav {
+  font-family: "JosefinSans", sans-serif;
+  font-size: large;
+  width: 100%;
+  min-height: 75px;
+  background-color: white;
+  color: #333333;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  color: black;
+}
+
+.contentMain {
+  flex: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.contentAside {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #111622;
+  padding-left: 40px;
+}
+
+.instructionsContainer {
+  h1 {
+    padding-bottom: 20px;
+    color: white;
+  }
+  p {
+    /* color: grey; */
+    color: white;
+  }
+}
+
+.instructionsText {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media (max-width: 1024px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .contentMain {
+    flex: 1;
+  }
+
+  .contentAside {
+    align-items: center;
+    padding-left: 0;
+  }
 }

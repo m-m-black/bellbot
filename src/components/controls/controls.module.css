@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  padding: 20px 0;
+}
+
+.dpadContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.dpadRow {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.directionButton {
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid #9b9b9b;
+  background-color: inherit;
+  &:hover {
+    border-color: #e15a1d;
+    cursor: pointer;
+  }
+  p {
+    color: white;
+  }
+}
+
+.moveButton {
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #9b9b9b;
+  height: 100%;
+  background-color: inherit;
+  &:hover {
+    border-color: #e15a1d;
+    cursor: pointer;
+  }
+  p {
+    color: white;
+  }
+}
+
+@media (max-width: 1024px) {
+  .moveButtonContainer {
+    width: 100%;
+  }
+
+  .moveButton {
+    width: 100%;
+  }
+}

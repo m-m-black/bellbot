@@ -5,7 +5,8 @@
 }
 
 body {
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
+  font-family: "Karla", sans-serif;
   width: 100vw;
   height: 100vh;
 }
